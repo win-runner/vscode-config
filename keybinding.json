@@ -1,4 +1,3 @@
-// Place your key bindings in this file to override the defaults
 [
     // NAVIGATION
     {
@@ -16,19 +15,19 @@
         "command": "workbench.action.togglePanel"
     },
     {
-        "key": "ctrl+shift+n",
+        "key": "ctrl+alt+t",
         "command": "workbench.action.terminal.new",
         "when": "terminalFocus"
     },
     {
-        "key": "ctrl+shift+w",
+        "key": "ctrl+alt+w",
         "command": "workbench.action.terminal.kill",
         "when": "terminalFocus"
     },
     // FILE TREE
     {
         "command": "workbench.action.toggleSidebarVisibility",
-        "key": "ctrl+e"
+        "key": "ctrl+b"
     },
     {
         "command": "workbench.files.action.focusFilesExplorer",
@@ -36,9 +35,19 @@
         "when": "editorTextFocus"
     },
     {
-        "key": "n",
+        "key": "ctrl+n",
         "command": "explorer.newFile",
         "when": "filesExplorerFocus && !inputFocus"
+    },
+    {
+        "key": "ctrl+shift+n",
+        "command": "explorer.newFolder",
+        "when": "explorerViewletFocus"
+    },
+    {
+        "key": "ctrl+alt+n",
+        "command": "workbench.action.newWindow",
+        "when": "!explorerViewletFocus"
     },
     {
         "command": "renameFile",
@@ -46,19 +55,30 @@
         "when": "filesExplorerFocus && !inputFocus"
     },
     {
-        "key": "shift+n",
-        "command": "explorer.newFolder",
-        "when": "explorerViewletFocus"
-    },
-    {
-        "key": "shift+n",
-        "command": "workbench.action.newWindow",
-        "when": "!explorerViewletFocus"
-    },
-    {
         "command": "deleteFile",
         "key": "d",
         "when": "filesExplorerFocus && !inputFocus"
+    },
+    // MULTI-LINE AND MULTI-SELECTION
+    {
+        "key": "alt+down",
+        "command": "cursorColumnSelectDown"
+    },
+    {
+        "key": "alt+up",
+        "command": "cursorColumnSelectUp"
+    },
+    {
+        "key": "ctrl+d",
+        "command": "editor.action.addSelectionToNextFindMatch"
+    },
+    {
+        "key": "ctrl+shift+l",
+        "command": "editor.action.selectHighlights"
+    },
+    {
+        "key": "ctrl+u",
+        "command": "cursorUndo"
     },
     // EXTRA
     {
