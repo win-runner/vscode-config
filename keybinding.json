@@ -1,92 +1,92 @@
 [
-    // NAVIGATION
-    {
-        "key": "ctrl+shift+a",
-        "command": "workbench.action.terminal.focusNext",
-        "when": "terminalFocus"
-    },
-    {
-        "key": "ctrl+shift+b",
-        "command": "workbench.action.terminal.focusPrevious",
-        "when": "terminalFocus"
-    },
-    {
-        "key": "ctrl+shift+j",
-        "command": "workbench.action.togglePanel"
-    },
-    {
-        "key": "ctrl+alt+t",
-        "command": "workbench.action.terminal.new",
-        "when": "terminalFocus"
-    },
-    {
-        "key": "ctrl+alt+w",
-        "command": "workbench.action.terminal.kill",
-        "when": "terminalFocus"
-    },
-    // FILE TREE
-    {
-        "command": "workbench.action.toggleSidebarVisibility",
-        "key": "ctrl+b"
-    },
-    {
-        "command": "workbench.files.action.focusFilesExplorer",
-        "key": "ctrl+e",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "ctrl+n",
-        "command": "explorer.newFile",
-        "when": "filesExplorerFocus && !inputFocus"
-    },
-    {
-        "key": "ctrl+shift+n",
-        "command": "explorer.newFolder",
-        "when": "explorerViewletFocus"
-    },
-    {
-        "key": "ctrl+alt+n",
-        "command": "workbench.action.newWindow",
-        "when": "!explorerViewletFocus"
-    },
-    {
-        "command": "renameFile",
-        "key": "r",
-        "when": "filesExplorerFocus && !inputFocus"
-    },
-    {
-        "command": "deleteFile",
-        "key": "d",
-        "when": "filesExplorerFocus && !inputFocus"
-    },
-    // MULTI-LINE AND MULTI-SELECTION
-    {
-        "key": "alt+down",
-        "command": "cursorColumnSelectDown"
-    },
-    {
-        "key": "alt+up",
-        "command": "cursorColumnSelectUp"
-    },
-    {
-        "key": "ctrl+d",
-        "command": "editor.action.addSelectionToNextFindMatch"
-    },
-    {
-        "key": "ctrl+shift+l",
-        "command": "editor.action.selectHighlights"
-    },
-    {
-        "key": "ctrl+u",
-        "command": "cursorUndo"
-    },
-    // EXTRA
-    {
-        "key": "ctrl+shift+5",
-        "command": "editor.emmet.action.matchTag"
-    },
-    {
-        "key": "ctrl+y",
-        "command": "workbench.action.toggleZenMode"
-    }
+  // NAVIGATION
+  {
+    "key": "ctrl+shift+a",
+    "command": "workbench.action.terminal.focusNext",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+shift+b",
+    "command": "workbench.action.terminal.focusPrevious",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+shift+j",
+    "command": "workbench.action.togglePanel"
+  },
+  {
+    "key": "ctrl+alt+t",
+    "command": "workbench.action.terminal.new",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+alt+w",
+    "command": "workbench.action.terminal.kill",
+    "when": "terminalFocus"
+  },
+  // FILE TREE
+  {
+    "command": "workbench.action.toggleSidebarVisibility",
+    "key": "ctrl+b"
+  },
+  {
+    "command": "workbench.files.action.focusFilesExplorer",
+    "key": "ctrl+e",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+n",
+    "command": "explorer.newFile",
+    "when": "filesExplorerFocus && !inputFocus"
+  },
+  {
+    "key": "ctrl+shift+n",
+    "command": "explorer.newFolder",
+    "when": "explorerViewletFocus"
+  },
+  {
+    "key": "ctrl+alt+n",
+    "command": "workbench.action.newWindow",
+    "when": "!explorerViewletFocus"
+  },
+  {
+    "command": "renameFile",
+    "key": "r",
+    "when": "filesExplorerFocus && !inputFocus"
+  },
+  {
+    "command": "deleteFile",
+    "key": "d",
+    "when": "filesExplorerFocus && !inputFocus"
+  },
+  // MULTI-LINE AND MULTI-SELECTION
+  {
+    "key": "alt+down",
+    "command": "cursorColumnSelectDown"
+  },
+  {
+    "key": "alt+up",
+    "command": "cursorColumnSelectUp"
+  },
+  {
+    "key": "ctrl+d",
+    "command": "editor.action.addSelectionToNextFindMatch"
+  },
+  {
+    "key": "ctrl+shift+l",
+    "command": "editor.action.selectHighlights"
+  },
+  {
+    "key": "ctrl+u",
+    "command": "cursorUndo"
+  },
+  // EXTRA
+  {
+    "key": "ctrl+shift+5",
+    "command": "editor.emmet.action.matchTag"
+  },
+  {
+    "key": "ctrl+y",
+    "command": "workbench.action.toggleZenMode"
+  }
 ]
