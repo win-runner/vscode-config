@@ -1,183 +1,118 @@
 [
   // NAVIGATION
-
   {
     "key": "ctrl+shift+a",
-
     "command": "workbench.action.terminal.focus"
   },
-
   {
     "key": "ctrl+shift+q",
-
     "command": "workbench.action.focusActiveEditorGroup",
-
     "when": "terminalFocus"
   },
-
   {
     "key": "ctrl+shift+t",
-
     "command": "workbench.action.togglePanel"
   },
-
   {
     "key": "ctrl+shift+n",
-
     "command": "workbench.action.terminal.focusNext",
-
     "when": "terminalFocus"
   },
-
   {
     "key": "ctrl+shift+b",
-
     "command": "workbench.action.terminal.focusPrevious",
-
     "when": "terminalFocus"
   },
-
   {
     "key": "ctrl+shift+y",
-
     "command": "workbench.action.terminal.new",
-
     "when": "terminalFocus"
   },
-
   {
     "key": "ctrl+shift+x",
-
     "command": "workbench.action.terminal.kill",
-
     "when": "terminalFocus"
   },
-
   // FILE TREE
-
   {
     "command": "workbench.action.toggleSidebarVisibility",
-
     "key": "ctrl+b"
   },
-
   {
     "command": "workbench.files.action.focusFilesExplorer",
-
     "key": "ctrl+e",
-
     "when": "editorTextFocus"
   },
-
   {
     "key": "ctrl+f",
-
     "command": "explorer.newFile",
-
     "when": "filesExplorerFocus && !inputFocus"
   },
-
   {
     "key": "ctrl+shift+f",
-
     "command": "explorer.newFolder",
-
     "when": "explorerViewletFocus"
   },
-
   {
     "key": "ctrl+alt+n",
-
     "command": "workbench.action.newWindow",
-
     "when": "!explorerViewletFocus"
   },
-
   {
     "command": "renameFile",
-
     "key": "r",
-
     "when": "filesExplorerFocus && !inputFocus"
   },
-
   {
     "command": "deleteFile",
-
     "key": "d",
-
     "when": "filesExplorerFocus && !inputFocus"
   },
-
   // MULTI-LINE AND MULTI-SELECTION
-
   {
     "key": "alt+down",
-
     "command": "cursorColumnSelectDown"
   },
-
   {
     "key": "alt+up",
-
     "command": "cursorColumnSelectUp"
   },
-
   {
     "key": "ctrl+d",
-
     "command": "editor.action.addSelectionToNextFindMatch"
   },
-
-  {
-    "key": "ctrl+s",
-
-    "command": "editor.action.selectHighlights"
-  },
-
   {
     "key": "ctrl+u",
-
     "command": "cursorUndo"
   },
-
   // EXTRA
-
   {
-    "key": "ctrl+c",
-
-    "command": "editor.action.commentLine"
+    "key": "ctrl+insert",
+    "command": "editor.action.clipboardCopyAction"
   },
-
+  {
+    "key": "ctrl+s",
+    "command": "workbench.action.files.save"
+  },
   {
     "key": "ctrl+shift+c",
-
     "command": "editor.action.blockComment"
   },
-
   {
     "key": "ctrl+shift+l",
-
     "command": "editor.emmet.action.matchTag"
   },
-
   {
     "key": "ctrl+y",
-
     "command": "workbench.action.toggleZenMode"
   },
-
   {
     "key": "ctrl+shift+s",
-
     "command": "workbench.action.splitEditorRight"
   },
-
   {
     "key": "ctrl+shift+s",
-
     "command": "workbench.action.terminal.split",
-
     "when": "terminalFocus && terminalProcessSupported || terminalFocus && terminalWebExtensionContributedProfile"
   }
 ]
