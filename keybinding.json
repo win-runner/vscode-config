@@ -108,7 +108,8 @@
   },
   {
     "key": "ctrl+shift+s",
-    "command": "workbench.action.splitEditorRight"
+    "command": "workbench.action.splitEditorRight",
+    "when": "!terminalFocus"
   },
   {
     "key": "ctrl+shift+s",
