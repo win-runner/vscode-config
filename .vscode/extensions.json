@@ -1,7 +1,18 @@
 {
-  "recommendations": [
-    "hashicorp.terraform",
-    "azapi-vscode.azapi",
-    "wengerk.highlight-bad-chars"
-  ]
+	// Extensions, die im Workspace empfohlen werden
+	"recommendations": [
+		"hashicorp.terraform",
+		"ms-azuretools.vscode-bicep",
+		"ms-vscode.powershell",
+		"ms-vscode-remote.vscode-remote-extensionpack",
+		"oderwat.indent-rainbow",
+		"github.github-vscode-theme",
+		"tal7aouy.theme",
+		"pkief.material-icon-theme",
+		"ugi-dev.better-commits",
+		"mhutchie.git-graph",
+		"gruntfuggly.todo-tree"
+	],
+	// Optional: explizit exkludierte Extensions
+	"unwantedRecommendations": []
 }
