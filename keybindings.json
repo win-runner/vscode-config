@@ -1,147 +1,147 @@
 [
-    // =========================
-    // TERMINAL
-    // =========================
-    // Fokus Terminal
-    {
-        "key": "ctrl+shift+a",
-        "command": "workbench.action.terminal.focus"
-    },
-    // Neues Terminal (plattformsicher)
-    {
-        "key": "ctrl+alt+t",
-        "mac": "cmd+alt+t",
-        "command": "workbench.action.terminal.new"
-    },
-    // Nächstes / vorheriges Terminal
-    {
-        "key": "ctrl+shift+n",
-        "command": "workbench.action.terminal.focusNext",
-        "when": "terminalFocus"
-    },
-    {
-        "key": "ctrl+shift+b",
-        "command": "workbench.action.terminal.focusPrevious",
-        "when": "terminalFocus"
-    },
-    // Terminal töten
-    {
-        "key": "ctrl+shift+x",
-        "command": "workbench.action.terminal.kill",
-        "when": "terminalFocus"
-    },
-    // Terminal splitten & umbenennen (ohne Backslash)
-    {
-        "key": "ctrl+alt+y",
-        "mac": "cmd+alt+y",
-        "command": "workbench.action.terminal.split",
-        "when": "terminalFocus"
-    },
-    {
-        "key": "ctrl+shift+r",
-        "command": "workbench.action.terminal.rename",
-        "when": "terminalFocus"
-    },
-    // =========================
-    // NAVIGATION / PANEL / SIDEBAR
-    // =========================
-    // Panel toggeln: Default lassen (Ctrl/Cmd+J) -> kein Eintrag nötig
-    // Sidebar
-    {
-        "key": "ctrl+b",
-        "mac": "cmd+b",
-        "command": "workbench.action.toggleSidebarVisibility"
-    },
-    // Explorer fokussieren
-    {
-        "key": "ctrl+e",
-        "mac": "cmd+e",
-        "command": "workbench.files.action.focusFilesExplorer",
-        "when": "editorTextFocus"
-    },
-    // =========================
-    // EXPLORER-AKTIONEN (einhand, kollisionsfrei)
-    // =========================
-    {
-        "key": "a",
-        "command": "explorer.newFile",
-        "when": "filesExplorerFocus && !inputFocus"
-    },
-    {
-        "key": "shift+a",
-        "command": "explorer.newFolder",
-        "when": "filesExplorerFocus && !inputFocus"
-    },
-    {
-        "key": "r",
-        "command": "renameFile",
-        "when": "filesExplorerFocus && !inputFocus"
-    },
-    {
-        "key": "d",
-        "command": "deleteFile",
-        "when": "filesExplorerFocus && !inputFocus"
-    },
-    // Neues Fenster (optional, kollisionsarm)
-    {
-        "key": "ctrl+alt+n",
-        "mac": "cmd+alt+n",
-        "command": "workbench.action.newWindow",
-        "when": "!explorerViewletFocus"
-    },
-    // =========================
-    // EDITOR: MULTI-SELECTION / CURSOR
-    // =========================
-    {
-        "key": "alt+down",
-        "command": "cursorColumnSelectDown"
-    },
-    {
-        "key": "alt+up",
-        "command": "cursorColumnSelectUp"
-    },
-    {
-        "key": "ctrl+d",
-        "mac": "cmd+d",
-        "command": "editor.action.addSelectionToNextFindMatch",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "ctrl+shift+l",
-        "mac": "cmd+shift+l",
-        "command": "editor.action.selectHighlights",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "ctrl+u",
-        "mac": "cmd+u",
-        "command": "cursorUndo",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    // =========================
-    // EDITOR: KOMMENTARE
-    // =========================
-    {
-        "key": "ctrl+alt+c",
-        "mac": "cmd+alt+c",
-        "command": "editor.action.commentLine",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "ctrl+alt+b",
-        "mac": "cmd+alt+b",
-        "command": "editor.action.blockComment",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    // =========================
-    // EDITOR: LAYOUT / ZEN
-    // =========================
-    // Rechts splitten (ohne Backslash)
-    {
-        "key": "ctrl+alt+s",
-        "mac": "cmd+alt+s",
-        "command": "workbench.action.splitEditorRight",
-        "when": "editorTextFocus"
-    }
-    // Zen Mode: Standard-Chord (Ctrl/Cmd+K, Z) beibehalten
+  // =========================
+  // TERMINAL
+  // =========================
+  // Fokus Terminal
+  {
+    "key": "ctrl+shift+a",
+    "command": "workbench.action.terminal.focus"
+  },
+  // Neues Terminal (plattformsicher)
+  {
+    "key": "ctrl+alt+t",
+    "mac": "cmd+alt+t",
+    "command": "workbench.action.terminal.new"
+  },
+  // Nächstes / vorheriges Terminal
+  {
+    "key": "ctrl+shift+n",
+    "command": "workbench.action.terminal.focusNext",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+shift+b",
+    "command": "workbench.action.terminal.focusPrevious",
+    "when": "terminalFocus"
+  },
+  // Terminal töten
+  {
+    "key": "ctrl+shift+x",
+    "command": "workbench.action.terminal.kill",
+    "when": "terminalFocus"
+  },
+  // Terminal splitten & umbenennen (ohne Backslash)
+  {
+    "key": "ctrl+alt+y",
+    "mac": "cmd+alt+y",
+    "command": "workbench.action.terminal.split",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+shift+r",
+    "command": "workbench.action.terminal.rename",
+    "when": "terminalFocus"
+  },
+  // =========================
+  // NAVIGATION / PANEL / SIDEBAR
+  // =========================
+  // Panel toggeln: Default lassen (Ctrl/Cmd+J) -> kein Eintrag nötig
+  // Sidebar
+  {
+    "key": "ctrl+b",
+    "mac": "cmd+b",
+    "command": "workbench.action.toggleSidebarVisibility"
+  },
+  // Explorer fokussieren
+  {
+    "key": "ctrl+e",
+    "mac": "cmd+e",
+    "command": "workbench.files.action.focusFilesExplorer",
+    "when": "editorTextFocus"
+  },
+  // =========================
+  // EXPLORER-AKTIONEN (einhand, kollisionsfrei)
+  // =========================
+  {
+    "key": "a",
+    "command": "explorer.newFile",
+    "when": "filesExplorerFocus && !inputFocus"
+  },
+  {
+    "key": "shift+a",
+    "command": "explorer.newFolder",
+    "when": "filesExplorerFocus && !inputFocus"
+  },
+  {
+    "key": "r",
+    "command": "renameFile",
+    "when": "filesExplorerFocus && !inputFocus"
+  },
+  {
+    "key": "d",
+    "command": "deleteFile",
+    "when": "filesExplorerFocus && !inputFocus"
+  },
+  // Neues Fenster (optional, kollisionsarm)
+  {
+    "key": "ctrl+alt+n",
+    "mac": "cmd+alt+n",
+    "command": "workbench.action.newWindow",
+    "when": "!explorerViewletFocus"
+  },
+  // =========================
+  // EDITOR: MULTI-SELECTION / CURSOR
+  // =========================
+  {
+    "key": "alt+down",
+    "command": "cursorColumnSelectDown"
+  },
+  {
+    "key": "alt+up",
+    "command": "cursorColumnSelectUp"
+  },
+  {
+    "key": "ctrl+d",
+    "mac": "cmd+d",
+    "command": "editor.action.addSelectionToNextFindMatch",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+shift+l",
+    "mac": "cmd+shift+l",
+    "command": "editor.action.selectHighlights",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+u",
+    "mac": "cmd+u",
+    "command": "cursorUndo",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  // =========================
+  // EDITOR: KOMMENTARE
+  // =========================
+  {
+    "key": "ctrl+alt+c",
+    "mac": "cmd+alt+c",
+    "command": "editor.action.commentLine",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+alt+b",
+    "mac": "cmd+alt+b",
+    "command": "editor.action.blockComment",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  // =========================
+  // EDITOR: LAYOUT / ZEN
+  // =========================
+  // Rechts splitten (ohne Backslash)
+  {
+    "key": "ctrl+alt+s",
+    "mac": "cmd+alt+s",
+    "command": "workbench.action.splitEditorRight",
+    "when": "editorTextFocus"
+  }
+  // Zen Mode: Standard-Chord (Ctrl/Cmd+K, Z) beibehalten
 ]

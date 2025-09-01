@@ -1,6 +1,6 @@
 # VSCode Configuration
 
-This repository includes a set of customized VSCode configurations to enhance the developer experience. The following configurations have been implemented:
+This repository includes a set of customized VSCode configurations—`settings.json` and `keybindings.json`—to enhance the developer experience. The following configurations have been implemented:
 
 ## Editor Settings
 
